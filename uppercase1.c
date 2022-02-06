@@ -3,6 +3,8 @@
 #include <stdio.h>
 #include <string.h>
 
+// now we have ctype.h included in our file, and we use functions islower and toupper
+
 int main(void) {
     string s = get_string("Before: ");
     printf("After: ");
