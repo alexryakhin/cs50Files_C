@@ -5,15 +5,15 @@
 int main(void) {
     string s = get_string("Input: ");
     printf("Output: ");
-    int lenght = 0;
+    int length = 0;
     for(int i = 0; s[i] != '\0'; i++) {
         printf("%c ", s[i]);
-        lenght++;
+        length++;
     }
     printf("\n");
-    printf("Lenght: %i\n", lenght);
+    printf("Length: %i\n", length);
 
     // there is a function called strlen() that takes a string and returns an integer, you should include string.h into your file
 
-    printf("Lenght built in: %lu\n", strlen(s));
+    printf("Length built in: %lu\n", strlen(s));
 }
